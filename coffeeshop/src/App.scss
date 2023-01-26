@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.firstScreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  background-image: url('../public/images/wp8744579.webp');
+  background-repeat: no-repeat;
+
+  .heading{
+    justify-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h1{
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    p{
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    button{
+      all: unset;
+      border: 1px solid white;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+
+}
+
+
+.screenTwo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  p{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  img{
+    filter: invert(100%);
+  }
+
+}
+
+.sectionThree{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+
+  width: 100%;
+  height: 50vh;
+  background-image: url('../public/images/background.jpg');
+  background-repeat: no-repeat;
+
+  .wrapper{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item-component{
+      width: 220px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-end;
+      background-color: white;
+      gap: 10px;
+      border-radius: 8px;
+    }
+  }
+}
+
+img{
+  width: 200px;
+  // height: 200px;
+}
